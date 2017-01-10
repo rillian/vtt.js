@@ -18,7 +18,7 @@
     },
     {
       "align": "middle",
-      "endTime": 2,
+      "endTime": 3,
       "id": "",
       "line": "auto",
       "lineAlign": "start",
@@ -28,7 +28,7 @@
       "region": "",
       "size": 100,
       "snapToLines": true,
-      "startTime": 3,
+      "startTime": 2,
       "text": "more text",
       "vertical": ""
     }
