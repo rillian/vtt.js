@@ -40,6 +40,10 @@ describe("file-layout tests", function(){
     test.jsonEqualAll("file-layout/header-no-new-line.vtt", "file-layout/no-output.json", onDone);
   });
 
+  it("line-endings-lf.vtt", function(onDone){
+    test.jsonEqualAll("file-layout/line-endings-lf.vtt", "file-layout/line-endings.json", onDone);
+  });
+
   // Turn back on: https://github.com/mozilla/vtt.js/issues/262
   it("many-comments.vtt", function(onDone){
     test.jsonEqual("file-layout/many-comments.vtt", "file-layout/many-comments.json", onDone);
